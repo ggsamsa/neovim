@@ -16,7 +16,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ervandew/supertab'
-
+Plugin 'flazz/vim-colorschemes'
+Plugin 'nanotech/jellybeans.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -41,4 +42,4 @@ map <C-n> :NERDTreeToggle<CR>
 syntax on
 let g:airline_powerline_fonts = 1
 set background=dark
-colorscheme solarized
+colorscheme jellybeans
